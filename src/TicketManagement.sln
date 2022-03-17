@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketManagement.Applicatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketManagement.Domain", "TicketManagement.Domain\TicketManagement.Domain.csproj", "{A5F7D9E6-33DB-4B8E-9792-341FBB755BAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketManagement.Persistence", "TicketManagement.Persistence\TicketManagement.Persistence.csproj", "{23911D07-2A03-4D4D-83D3-261FECD6460A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketManagement.Api", "TicketManagement.Api\TicketManagement.Api.csproj", "{90AE69D9-DC67-45CE-9A57-0951E58E8CE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketManagement.Infrastructure", "TicketManagement.Infrastructure\TicketManagement.Infrastructure.csproj", "{502DBF51-70AA-48E8-9636-91739A06CD5D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +30,17 @@ Global
 		{A5F7D9E6-33DB-4B8E-9792-341FBB755BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5F7D9E6-33DB-4B8E-9792-341FBB755BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5F7D9E6-33DB-4B8E-9792-341FBB755BAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23911D07-2A03-4D4D-83D3-261FECD6460A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23911D07-2A03-4D4D-83D3-261FECD6460A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23911D07-2A03-4D4D-83D3-261FECD6460A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23911D07-2A03-4D4D-83D3-261FECD6460A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90AE69D9-DC67-45CE-9A57-0951E58E8CE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90AE69D9-DC67-45CE-9A57-0951E58E8CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90AE69D9-DC67-45CE-9A57-0951E58E8CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90AE69D9-DC67-45CE-9A57-0951E58E8CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{502DBF51-70AA-48E8-9636-91739A06CD5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{502DBF51-70AA-48E8-9636-91739A06CD5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{502DBF51-70AA-48E8-9636-91739A06CD5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{502DBF51-70AA-48E8-9636-91739A06CD5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
